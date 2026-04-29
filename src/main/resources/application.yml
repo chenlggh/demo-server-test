@@ -1,0 +1,11 @@
+server:
+  port: 8080
+
+spring:
+  application:
+    name: demo-server-test
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://gateway01.ap-southeast-1.prod.alicloud.tidbcloud.com:4000/test
+    username: 3RVzvttuKmQHDkp.root
+    password: B8lfENPgSQMYs2Iw
